@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Material Design for Bootstrap</title>
+  <!-- MDB icon -->
+  <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://raw.githack.com/apttechsols/mdb-pro-4.11.0.apttechsols.com/master/css/bootstrap.min.css">
+  <!-- Material Design Bootstrap -->
+  <link rel="stylesheet" href="https://raw.githack.com/apttechsols/mdb-pro-4.11.0.apttechsols.com/master/css/mdb.min.css">
+  <!-- Your custom styles (optional) -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  
+  <!-- Start your project here-->  
+  <div style="height: 100vh">
+    <div class="col-md-8 mx-auto">
+      <select class="mdb-select md-form" multiple searchable="Search here..">
+        <option value="" disabled selected>Choose your country</option>
+        <option value="1">USA</option>
+        <option value="2">Germany</option>
+        <option value="3">France</option>
+        <option value="3">Poland</option>
+        <option value="3">Japan</option>
+      </select>
+    </div>
+    <button class="btn-save btn btn-primary btn-sm">Save</button>
+    <div class="flex-center flex-column">
+      <h1 class="text-hide animated fadeIn mb-4" style="background-image: url('https://mdbootstrap.com/img/logo/mdb-transparent-250px.png'); width: 250px; height: 90px;">MDBootstrap</h1>
+      <h5 class="animated fadeIn mb-3">Thank you for using our product. We're glad you're with us.</h5>
+      <p class="animated fadeIn text-muted">MDB Team</p>
+    </div>
+  </div>
+  <!-- End your project here-->
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="https://unpkg.com/@popperjs/core@2"></script>
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="https://raw.githack.com/apttechsols/mdb-pro-4.11.0.apttechsols.com/master/js/mdb.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $('.mdb-select').materialSelect();
+    });
+  </script>
+
+</body>
+</html>
